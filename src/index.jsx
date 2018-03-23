@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import YoutubeSearchApp from './scenes/YoutubeSearchApp';
+import Root from './store/root';
 
 ReactDOM.render(
-    <YoutubeSearchApp />,
+    <Root />,
     document.getElementById('app')
-);
+)
